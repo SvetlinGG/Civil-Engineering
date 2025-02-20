@@ -1,0 +1,58 @@
+:root {
+    --green: #259D19;
+    --dark-blue: #171A8F;
+    --white: #ffffff;
+    --transparent-orange: #E3A11F;
+    --orange: #E3A11F;
+
+    font-family: 'Open Sans';
+}
+
+body {
+    margin: 0;
+}
+.site-content {
+    width: 1920px;
+    height: 85px;
+    
+}
+.header-section-content {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo-container {
+    margin-left: 320px;
+    margin-top: 10px;
+
+}
+.search {
+    width: 769px;
+    color: #444242;
+}
+
+input {
+    border-radius: 50px;
+    width: 250px;
+    height: 45px;
+    margin-left: 100px;
+    background-color: lightgray;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 320px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    height: 85px;
+    background-color: var(--green);
+
+}
+.nav-bar-content {
+    border: 1px solid white;
+}

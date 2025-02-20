@@ -35,7 +35,7 @@ input {
     border-radius: 50px;
     width: 250px;
     height: 45px;
-    margin-left: 100px;
+    margin-left: 400px;
     background-color: lightgray;
 }
 .social {
@@ -51,8 +51,14 @@ input {
     width: 1920px;
     height: 85px;
     background-color: var(--green);
-
+    
 }
-.nav-bar-content {
-    border: 1px solid white;
+a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 0 60px;
+    border-left: 2px solid white;
+}
+.home {
+    color: #E3A11F;
 }

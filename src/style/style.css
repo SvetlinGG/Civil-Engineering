@@ -103,4 +103,37 @@ a {
     align-items: center;
     padding-left: 35px;
 }
-
+.about {
+    background-color: var(--transparent-orange);
+    display: flex;
+    justify-content: space-between;
+}
+.about-golo {
+    width: 570px;
+    margin-left: 320px;
+}
+.construction-text {
+    background-color: var(--green);
+    color: var(--white);
+    margin-top: -5px;
+    padding: 10px 10px;
+}
+.about-golo, p {
+    margin-right: 18px;
+    
+}
+h1 {
+    font-size: 45px;
+    color: var(--green);
+}
+.core {
+    width: 570px;
+    margin-right: 320px;
+    margin-top: 170px;
+    
+}
+h2 {
+    margin-left: 50px;
+    font-size: 45px;
+    color: var(--dark-blue);
+}

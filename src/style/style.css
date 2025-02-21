@@ -1,4 +1,4 @@
-:root {
+ :root {
     --green: #259D19;
     --dark-blue: #171A8F;
     --white: #ffffff;
@@ -7,7 +7,7 @@
 
     font-family: 'Open Sans';
 }
-
+/*
 body {
     margin: 0;
 }
@@ -53,8 +53,12 @@ input {
     align-items: center;
     width: 1920px;
     height: 85px;
-    background-color: var(--green);
-    
+    background-color: var(--green); 
+    border: 1px solid red;
+}
+.nav-bar-content {
+    border: 1px solid red;
+
 }
 a {
     color: var(--white);
@@ -136,4 +140,139 @@ h2 {
     margin-left: 50px;
     font-size: 45px;
     color: var(--dark-blue);
+}
+
+@media (max-width: 768px) {
+    .header-section-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-bar-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar-content a {
+        margin: 10px 0;
+    }
+} */
+
+/* General styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+.header-section {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.logo-container img {
+    max-width: 150px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social-media img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-bar-content a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* Main Section */
+.main-section {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+        url('/src/pictures/building.png') center/cover;
+    height: 885px;
+    display: flex;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.btn-section {
+    width: 173px;
+    height: 45px;
+    margin-top: 20px;
+    color: var(--orange);
+    background-color: var(--dark-blue);
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-golo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-section-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-bar-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar-content a {
+        margin: 10px 0;
+    }
 }

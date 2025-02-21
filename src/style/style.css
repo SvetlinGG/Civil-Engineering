@@ -30,6 +30,9 @@ body {
     width: 769px;
     color: #444242;
 }
+.search-input {
+    color: grey;
+}
 
 input {
     border-radius: 50px;
@@ -62,3 +65,42 @@ a {
 .home {
     color: #E3A11F;
 }
+.main-section {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+        url('/src/pictures/building.png') center/cover;
+    height: 885px;
+    display: flex;
+}
+.main-section-content {
+    padding-top: 300px;
+    width: 1140px;
+    height: 100px;
+}
+
+.civil, .somali, .btn-1 {
+    margin-top: 30px;
+    margin-left: 320px;
+}
+.civil {
+    font-size: 45px;
+    color: var(--green);
+}
+.somali {
+    font-size: 14px;
+    color: var(--dark-blue);
+}
+.btn-1 {
+    width: 173px;
+    height: 45px;
+    color: var(--orange);
+    background-color: var(--dark-blue);
+    
+}
+.strelka {
+    color: var(--dark-blue);
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+}
+
